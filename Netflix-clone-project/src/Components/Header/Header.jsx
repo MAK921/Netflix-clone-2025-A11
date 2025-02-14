@@ -19,7 +19,6 @@ const Header = () => {
                 className='netflix-logo'
               />
             </li>
-            <li>Netflix</li>
             <li>Home</li>
             <li>TV Shows</li>  
             <li>Movies</li>
