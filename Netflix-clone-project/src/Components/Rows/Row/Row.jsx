@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../../../Utils/Axios';
-import './row.css';
+import './row.css'
 import movieTrailer from 'movie-trailer'; 
 import YouTube from 'react-youtube';
 
@@ -9,8 +9,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [trailerUrl, setTrailerUrl] = useState("");
 
   const base_url = "https://image.tmdb.org/t/p/original";
-
-
 
   useEffect(() => {
     const fetchData = async () => {

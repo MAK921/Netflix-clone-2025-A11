@@ -21,7 +21,6 @@ padding-bottom: 10px;
 .footer_data {
 display: flex;
 justify-content: space-between;
-font: large;
 }
 
 .footer_data ul{
